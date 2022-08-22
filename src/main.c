@@ -227,6 +227,7 @@ int main(void)
     bootloader_app_start();
   }
 
+  NRF_POWER->GPREGRET = 0xA8; // 0xA8 OTA, 0x4e Serial
   NVIC_SystemReset();
 }
 
