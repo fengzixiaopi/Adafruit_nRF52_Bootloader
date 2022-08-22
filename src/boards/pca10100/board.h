@@ -44,7 +44,7 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define ONLY_OTA_DFU
+//#define ONLY_OTA_DFU
 #define BLEDIS_MANUFACTURER    "Nordic"
 #define BLEDIS_MODEL           "PCA10100"
 
